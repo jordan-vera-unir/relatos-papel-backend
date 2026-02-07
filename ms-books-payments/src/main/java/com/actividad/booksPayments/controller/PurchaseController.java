@@ -32,19 +32,12 @@ public class PurchaseController {
     @ApiResponse(
             responseCode = "200",
             content = @Content(mediaType = "application/json", schema = @Schema(implementation = Purchase.class)))
-    public ResponseEntity<Purchase> purchase(@RequestBody CreatePurchaseRequest purchaseRequest){
-        Purchase createdPurchases 
+    public ResponseEntity<?> purchase(@RequestBody CreatePurchaseRequest purchaseRequest){
         try {
             Purchase createdPurchases = service.createPurchase(purchaseRequest);
-        } catch (Exception e) {
-
-        }
-
-
-        if (createdPurchases != null) {
             return ResponseEntity.status(HttpStatus.CREATED).body(createdPurchases);
-        } else {
-            return ResponseEntity.badRequest().build();
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
         }
     }
 
@@ -71,6 +64,7 @@ public class PurchaseController {
         } else {
             return ResponseEntity.notFound().build();
         }
+
 
     }
 
