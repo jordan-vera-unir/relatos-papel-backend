@@ -1,8 +1,8 @@
 package com.backend.ms_books_catalogue.service;
 
-import com.backend.ms_books_catalogue.dtos.CreateBookRequest;
-import com.backend.ms_books_catalogue.model.Book;
-import com.backend.ms_books_catalogue.repository.BookRepository;
+import com.backend.ms_books_catalogue.dtos.CreateBookIndexRequest;
+import com.backend.ms_books_catalogue.model.BookIndex;
+import com.backend.ms_books_catalogue.repository.BookOpenSearchRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -14,6 +14,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
@@ -23,13 +24,15 @@ import static org.mockito.Mockito.*;
 class BookServiceTest {
 
     @Mock
-    private BookRepository repository;
+    private BookOpenSearchRepository repository;
 
     @Spy // Usamos Spy en ObjectMapper porque el servicio lo usa para lógica real de JSON
     private ObjectMapper objectMapper = new ObjectMapper();
 
     @InjectMocks
-    private BookService bookService;
+    private BookOpenSearchService bookService;
+
+    String bookId = "syV6mJwBDlcDp9kMtUio";
 
     // --- PRUEBAS DE CREACIÓN ---
 
@@ -37,27 +40,27 @@ class BookServiceTest {
     @DisplayName("Debe crear un libro correctamente cuando el request es válido")
     void createBook_Success() {
         // Arrange
-        CreateBookRequest request = createValidRequest();
-        when(repository.save(any(Book.class))).thenAnswer(i -> i.getArguments()[0]);
+        CreateBookIndexRequest request = createValidRequest();
+        when(repository.save(any(BookIndex.class))).thenAnswer(i -> i.getArguments()[0]);
 
         // Act
-        Book result = bookService.createBook(request);
+        BookIndex result = bookService.createBook(request);
 
         // Assert
         assertNotNull(result);
         assertEquals("Clean Code", result.getTitle());
-        verify(repository, times(1)).save(any(Book.class));
+        verify(repository, times(1)).save(any(BookIndex.class));
     }
 
     @Test
     @DisplayName("Debe retornar null si la fecha de publicación es futura")
     void createBook_FutureDate_ReturnsNull() {
         // Arrange
-        CreateBookRequest request = createValidRequest();
+        CreateBookIndexRequest request = createValidRequest();
         request.setPublishedDate(LocalDate.now().plusDays(1)); // Fecha futura
 
         // Act
-        Book result = bookService.createBook(request);
+        BookIndex result = bookService.createBook(request);
 
         // Assert
         assertNull(result);
@@ -70,15 +73,15 @@ class BookServiceTest {
     @DisplayName("Debe retornar un libro por ID")
     void getBook_ExistingId_ReturnsBook() {
         // Arrange
-        Book book = Book.builder().id(1L).title("Test").build();
-        when(repository.getById(1L)).thenReturn(book);
+        BookIndex book = BookIndex.builder().id(bookId).title("Test").build();
+        when(repository.findById(bookId)).thenReturn(Optional.ofNullable(book));
 
         // Act
-        Book result = bookService.getBook("1");
+        BookIndex result = bookService.getBook("syV6mJwBDlcDp9kMtUio");
 
         // Assert
         assertNotNull(result);
-        assertEquals(1L, result.getId());
+        assertEquals(bookId, result.getId());
     }
 
     // --- PRUEBAS DE ELIMINACIÓN ---
@@ -87,11 +90,11 @@ class BookServiceTest {
     @DisplayName("Debe retornar TRUE al eliminar un libro existente")
     void removeBook_Existing_ReturnsTrue() {
         // Arrange
-        Book book = new Book();
-        when(repository.getById(1L)).thenReturn(book);
+        BookIndex book = new BookIndex();
+        when(repository.findById(bookId)).thenReturn(Optional.of(book));
 
         // Act
-        Boolean result = bookService.removeBook("1");
+        Boolean result = bookService.removeBook(bookId);
 
         // Assert
         assertTrue(result);
@@ -99,15 +102,15 @@ class BookServiceTest {
     }
 
     // Helper para crear requests válidos rápidamente
-    private CreateBookRequest createValidRequest() {
-        return CreateBookRequest.builder()
+    private CreateBookIndexRequest createValidRequest() {
+        return CreateBookIndexRequest.builder()
                 .title("Clean Code")
                 .author("Robert C. Martin")
                 .editorial("Prentice Hall")
                 .pages(464)
-                .genres(List.of("Tech"))
+                .genres("Tech")
                 .publishedDate(LocalDate.now().minusYears(10))
-                .rating(5)
+                .rating((short) 5)
                 .price(40.0)
                 .coverImage("url")
                 .dimensions("20x15")
