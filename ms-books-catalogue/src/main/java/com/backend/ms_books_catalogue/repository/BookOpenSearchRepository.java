@@ -57,25 +57,13 @@ public class BookOpenSearchRepository {
         BoolQueryBuilder querySpec = QueryBuilders.boolQuery();
 
         if (!StringUtils.isEmpty(title)) {
-            querySpec.must(QueryBuilders.termQuery("title", title));
+            querySpec.must(QueryBuilders.wildcardQuery("title", "*" + title.toLowerCase() + "*"));
         }
 
         if (!StringUtils.isEmpty(author)) {
             querySpec.must(QueryBuilders.matchQuery("author", author));
         }
 
-        if (!StringUtils.isEmpty(title)) {
-            querySpec.must(QueryBuilders.multiMatchQuery(title, descriptionSearchFields).type(Type.BOOL_PREFIX));
-        }
-
-        //Si no he recibido ningun parametro, busco todos los elementos.
-        if (!querySpec.hasClauses()) {
-            querySpec.must(QueryBuilders.matchAllQuery());
-        }
-
-        //Filtro implicito
-        //No le pido al usuario que lo introduzca pero lo aplicamos proactivamente en todas las peticiones
-        //En este caso, que los BookIndexos sean visibles (estado correcto de la entidad)
         querySpec.must(QueryBuilders.termQuery("visible", true));
 
         NativeSearchQueryBuilder nativeSearchQueryBuilder = new NativeSearchQueryBuilder().withQuery(querySpec);
