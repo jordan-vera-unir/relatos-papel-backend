@@ -1,4 +1,4 @@
-package com.backend.ms_books_catalogue.repository;
+package com.backend.ms_books_catalogue.service;
 
 import com.backend.ms_books_catalogue.model.Book;
 import com.backend.ms_books_catalogue.utils.Consts;

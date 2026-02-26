@@ -2,6 +2,8 @@ package com.backend.ms_books_catalogue.controller;
 
 import com.backend.ms_books_catalogue.dtos.CreateBookRequest;
 import com.backend.ms_books_catalogue.model.Book;
+import com.backend.ms_books_catalogue.service.BookService;
+import com.backend.ms_books_catalogue.service.IBookOpenSearchService;
 import com.backend.ms_books_catalogue.service.IBookService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -23,7 +25,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 @Slf4j
 public class BookController {
-    private final IBookService service;
+    private final BookService service;
 
     @GetMapping
     @Operation(

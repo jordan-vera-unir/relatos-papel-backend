@@ -2,7 +2,6 @@ package com.backend.ms_books_catalogue.service;
 
 import com.backend.ms_books_catalogue.dtos.CreateBookRequest;
 import com.backend.ms_books_catalogue.model.Book;
-import com.backend.ms_books_catalogue.repository.BookRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

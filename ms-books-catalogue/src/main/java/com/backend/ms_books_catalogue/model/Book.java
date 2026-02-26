@@ -71,3 +71,4 @@ public class Book {
         this.visible = request.getVisible();
     }
 }
+

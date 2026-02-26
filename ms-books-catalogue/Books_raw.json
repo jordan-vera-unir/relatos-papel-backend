@@ -1,0 +1,120 @@
+{"index":{"_index":"books"}}
+{"title":"Node.js Design Patterns","author":"Mario Casciaro","editorial":"Packt","pages":500,"genres":["Tech"],"publishedDate":"2020-07-20","rating":5,"price":39.99,"coverImage":"https://picsum.photos/seed/b1/200/300","dimensions":"23.5cm x 19.0cm","stock":25,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Effective Java","author":"Joshua Bloch","editorial":"Addison-Wesley","pages":412,"genres":["Tech"],"publishedDate":"2018-01-06","rating":5,"price":45.00,"coverImage":"https://picsum.photos/seed/b2/200/300","dimensions":"24.0cm x 18.0cm","stock":15,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Foundation","author":"Isaac Asimov","editorial":"Planeta","pages":255,"genres":["Sci-Fi"],"publishedDate":"1951-06-01","rating":5,"price":15.50,"coverImage":"https://picsum.photos/seed/b3/200/300","dimensions":"20.0cm x 13.0cm","stock":50,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Sapiens","author":"Yuval Noah Harari","editorial":"Penguin","pages":443,"genres":["History"],"publishedDate":"2011-04-01","rating":4,"price":22.90,"coverImage":"https://picsum.photos/seed/b4/200/300","dimensions":"23.0cm x 15.0cm","stock":30,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"The Silent Patient","author":"Alex Michaelides","editorial":"Celadon","pages":336,"genres":["Thriller"],"publishedDate":"2019-02-05","rating":4,"price":18.00,"coverImage":"https://picsum.photos/seed/b5/200/300","dimensions":"21.0cm x 14.0cm","stock":20,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Spring Microservices in Action","author":"John Carnell","editorial":"Manning","pages":385,"genres":["Tech"],"publishedDate":"2017-06-11","rating":4,"price":49.99,"coverImage":"https://picsum.photos/seed/b6/200/300","dimensions":"24.0cm x 18.5cm","stock":10,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"The Name of the Wind","author":"Patrick Rothfuss","editorial":"Norma","pages":662,"genres":["Fantasy"],"publishedDate":"2007-03-27","rating":5,"price":28.00,"coverImage":"https://picsum.photos/seed/b7/200/300","dimensions":"23.0cm x 16.0cm","stock":18,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"1984","author":"George Orwell","editorial":"Penguin","pages":328,"genres":["Dystopian"],"publishedDate":"1949-06-08","rating":5,"price":12.99,"coverImage":"https://picsum.photos/seed/b8/200/300","dimensions":"19.5cm x 12.5cm","stock":100,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Brave New World","author":"Aldous Huxley","editorial":"Planeta","pages":268,"genres":["Dystopian"],"publishedDate":"1932-10-01","rating":4,"price":14.50,"coverImage":"https://picsum.photos/seed/b9/200/300","dimensions":"20.0cm x 13.5cm","stock":45,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Designing Data-Intensive Applications","author":"Martin Kleppmann","editorial":"O'Reilly","pages":611,"genres":["Tech"],"publishedDate":"2017-03-16","rating":5,"price":52.00,"coverImage":"https://picsum.photos/seed/b10/200/300","dimensions":"25.0cm x 18.0cm","stock":7,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"The Alchemist","author":"Paulo Coelho","editorial":"Norma","pages":208,"genres":["Fiction"],"publishedDate":"1988-05-01","rating":3,"price":10.99,"coverImage":"https://picsum.photos/seed/b11/200/300","dimensions":"19.0cm x 12.0cm","stock":60,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Kafka on the Shore","author":"Haruki Murakami","editorial":"Tusquets","pages":505,"genres":["Surrealism"],"publishedDate":"2002-09-12","rating":5,"price":24.50,"coverImage":"https://picsum.photos/seed/b12/200/300","dimensions":"22.0cm x 15.0cm","stock":14,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"The Power of Habit","author":"Charles Duhigg","editorial":"Random House","pages":371,"genres":["Psychology"],"publishedDate":"2012-02-28","rating":4,"price":19.95,"coverImage":"https://picsum.photos/seed/b13/200/300","dimensions":"23.0cm x 15.5cm","stock":22,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Dune","author":"Frank Herbert","editorial":"Chilton","pages":412,"genres":["Sci-Fi"],"publishedDate":"1965-08-01","rating":5,"price":21.00,"coverImage":"https://picsum.photos/seed/b14/200/300","dimensions":"24.0cm x 16.5cm","stock":35,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Atomic Habits","author":"James Clear","editorial":"Avery","pages":320,"genres":["Self-Help"],"publishedDate":"2018-10-16","rating":5,"price":22.00,"coverImage":"https://picsum.photos/seed/b15/200/300","dimensions":"21.5cm x 14.5cm","stock":80,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"The Lean Startup","author":"Eric Ries","editorial":"Crown","pages":336,"genres":["Business"],"publishedDate":"2011-09-13","rating":4,"price":26.50,"coverImage":"https://picsum.photos/seed/b16/200/300","dimensions":"23.5cm x 16.0cm","stock":28,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Zero to One","author":"Peter Thiel","editorial":"Currency","pages":210,"genres":["Business"],"publishedDate":"2014-09-16","rating":4,"price":23.00,"coverImage":"https://picsum.photos/seed/b17/200/300","dimensions":"21.0cm x 14.0cm","stock":19,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"The Pragmatic Programmer","author":"Andrew Hunt","editorial":"Pearson","pages":352,"genres":["Tech"],"publishedDate":"1999-10-30","rating":5,"price":42.99,"coverImage":"https://picsum.photos/seed/b18/200/300","dimensions":"23.0cm x 18.0cm","stock":12,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Neuromancer","author":"William Gibson","editorial":"Ace","pages":271,"genres":["Sci-Fi"],"publishedDate":"1984-07-01","rating":5,"price":16.95,"coverImage":"https://picsum.photos/seed/b19/200/300","dimensions":"20.0cm x 13.0cm","stock":40,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Meditations","author":"Marcus Aurelius","editorial":"HistoryPress","pages":256,"genres":["Philosophy"],"publishedDate":"2002-05-14","rating":5,"price":11.00,"coverImage":"https://picsum.photos/seed/b20/200/300","dimensions":"18.5cm x 12.0cm","stock":55,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Node.js en Acción","author":"Alex Young","editorial":"Manning","pages":450,"genres":["Tech"],"publishedDate":"2022-03-10","rating":5,"price":42.50,"coverImage":"https://picsum.photos/seed/1/200/300","dimensions":"24.0cm x 18.0cm","stock":15,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"El Psicoanalista","author":"John Katzenbach","editorial":"Planeta","pages":528,"genres":["Thriller"],"publishedDate":"2002-01-01","rating":5,"price":19.90,"coverImage":"https://picsum.photos/seed/2/200/300","dimensions":"21.0cm x 14.0cm","stock":22,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Clean Code","author":"Robert C. Martin","editorial":"Pearson","pages":464,"genres":["Tech"],"publishedDate":"2008-08-01","rating":5,"price":35.99,"coverImage":"https://picsum.photos/seed/3/200/300","dimensions":"23.5cm x 17.8cm","stock":10,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Cien años de soledad","author":"Gabriel García Márquez","editorial":"Norma","pages":496,"genres":["Classic"],"publishedDate":"1967-05-30","rating":5,"price":25.00,"coverImage":"https://picsum.photos/seed/4/200/300","dimensions":"22.0cm x 15.0cm","stock":50,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Spring Boot Up & Running","author":"Mark Heckler","editorial":"O'Reilly","pages":320,"genres":["Tech"],"publishedDate":"2021-02-15","rating":4,"price":49.00,"coverImage":"https://picsum.photos/seed/5/200/300","dimensions":"23.0cm x 18.0cm","stock":5,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"El Imperio Final","author":"Brandon Sanderson","editorial":"Nova","pages":688,"genres":["Fantasy"],"publishedDate":"2006-07-17","rating":5,"price":28.50,"coverImage":"https://picsum.photos/seed/6/200/300","dimensions":"24.0cm x 16.0cm","stock":12,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"PostgreSQL: Up and Running","author":"Regina Obe","editorial":"O'Reilly","pages":350,"genres":["Tech"],"publishedDate":"2017-11-20","rating":4,"price":38.00,"coverImage":"https://picsum.photos/seed/7/200/300","dimensions":"23.5cm x 17.8cm","stock":8,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"1984","author":"George Orwell","editorial":"Penguin","pages":328,"genres":["Dystopian"],"publishedDate":"1949-06-08","rating":5,"price":12.50,"coverImage":"https://picsum.photos/seed/8/200/300","dimensions":"19.5cm x 12.5cm","stock":100,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"El Código Da Vinci","author":"Dan Brown","editorial":"Planeta","pages":480,"genres":["Thriller"],"publishedDate":"2003-03-18","rating":4,"price":18.00,"coverImage":"https://picsum.photos/seed/9/200/300","dimensions":"23.0cm x 15.0cm","stock":35,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Cracking the Coding Interview","author":"Gayle Laakmann McDowell","editorial":"CareerCup","pages":708,"genres":["Tech"],"publishedDate":"2015-07-01","rating":5,"price":34.95,"coverImage":"https://picsum.photos/seed/10/200/300","dimensions":"25.0cm x 20.0cm","stock":20,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Fahrenheit 451","author":"Ray Bradbury","editorial":"Norma","pages":176,"genres":["Sci-Fi"],"publishedDate":"1953-10-19","rating":5,"price":14.00,"coverImage":"https://picsum.photos/seed/11/200/300","dimensions":"20.0cm x 13.0cm","stock":40,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Learning SQL","author":"Alan Beaulieu","editorial":"O'Reilly","pages":380,"genres":["Tech"],"publishedDate":"2020-03-20","rating":4,"price":32.00,"coverImage":"https://picsum.photos/seed/12/200/300","dimensions":"23.5cm x 17.8cm","stock":14,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"El Hobbit","author":"J.R.R. Tolkien","editorial":"Minotauro","pages":310,"genres":["Fantasy"],"publishedDate":"1937-09-21","rating":5,"price":21.90,"coverImage":"https://picsum.photos/seed/13/200/300","dimensions":"21.0cm x 14.5cm","stock":60,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"The Pragmatic Programmer","author":"Andrew Hunt","editorial":"Addison-Wesley","pages":352,"genres":["Tech"],"publishedDate":"1999-10-20","rating":5,"price":45.00,"coverImage":"https://picsum.photos/seed/14/200/300","dimensions":"23.0cm x 18.0cm","stock":9,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Rayuela","author":"Julio Cortázar","editorial":"Alfaguara","pages":600,"genres":["Classic"],"publishedDate":"1963-06-28","rating":5,"price":23.00,"coverImage":"https://picsum.photos/seed/15/200/300","dimensions":"22.0cm x 15.5cm","stock":25,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Introducción a Algoritmos","author":"Thomas H. Cormen","editorial":"MIT Press","pages":1312,"genres":["Tech"],"publishedDate":"2009-07-31","rating":5,"price":85.00,"coverImage":"https://picsum.photos/seed/16/200/300","dimensions":"26.0cm x 21.0cm","stock":4,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Guerra y Paz","author":"León Tolstói","editorial":"Penguin","pages":1224,"genres":["Classic"],"publishedDate":"1869-01-01","rating":4,"price":30.00,"coverImage":"https://picsum.photos/seed/17/200/300","dimensions":"24.0cm x 17.0cm","stock":11,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Java: The Complete Reference","author":"Herbert Schildt","editorial":"McGraw Hill","pages":1248,"genres":["Tech"],"publishedDate":"2018-12-12","rating":4,"price":55.00,"coverImage":"https://picsum.photos/seed/18/200/300","dimensions":"25.5cm x 20.0cm","stock":7,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Sapiens","author":"Yuval Noah Harari","editorial":"Debate","pages":496,"genres":["History"],"publishedDate":"2011-09-04","rating":5,"price":22.00,"coverImage":"https://picsum.photos/seed/19/200/300","dimensions":"23.0cm x 15.5cm","stock":45,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Design Patterns","author":"Erich Gamma","editorial":"Addison-Wesley","pages":395,"genres":["Tech"],"publishedDate":"1994-10-31","rating":5,"price":52.00,"coverImage":"https://picsum.photos/seed/20/200/300","dimensions":"23.5cm x 18.0cm","stock":13,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Mastering Node.js Streams","author":"Lucas OpenSource","editorial":"TechPress","pages":350,"genres":["Tech"],"publishedDate":"2023-01-15","rating":5,"price":45.99,"coverImage":"https://picsum.photos/seed/1/200/300","dimensions":"24.0cm x 18.0cm","stock":15,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"El Misterio de la Lambda","author":"Alan Turing","editorial":"Algorithmia","pages":520,"genres":["Fiction"],"publishedDate":"2021-11-20","rating":4,"price":29.50,"coverImage":"https://picsum.photos/seed/2/200/300","dimensions":"21.0cm x 14.0cm","stock":5,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"History of Open Source","author":"Linus Torvalds","editorial":"Penguin","pages":410,"genres":["History"],"publishedDate":"2015-05-12","rating":5,"price":35.00,"coverImage":"https://picsum.photos/seed/3/200/300","dimensions":"23.5cm x 17.8cm","stock":10,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Microservices in Spring Boot","author":"Java Master","editorial":"O'Reilly","pages":600,"genres":["Tech"],"publishedDate":"2022-08-10","rating":4,"price":55.00,"coverImage":"https://picsum.photos/seed/4/200/300","dimensions":"25.0cm x 19.0cm","stock":20,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"The Martian Chronicles","author":"Ray Bradbury","editorial":"Planeta","pages":280,"genres":["Sci-Fi"],"publishedDate":"2010-02-05","rating":5,"price":18.90,"coverImage":"https://picsum.photos/seed/5/200/300","dimensions":"20.0cm x 13.0cm","stock":40,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Clean Code en Java","author":"Robert C. Martin","editorial":"Packt","pages":460,"genres":["Tech"],"publishedDate":"2018-03-25","rating":5,"price":42.00,"coverImage":"https://picsum.photos/seed/6/200/300","dimensions":"23.0cm x 18.5cm","stock":12,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"PostgreSQL for Architects","author":"Database Guru","editorial":"Norma","pages":390,"genres":["Tech"],"publishedDate":"2020-09-30","rating":4,"price":49.99,"coverImage":"https://picsum.photos/seed/7/200/300","dimensions":"24.5cm x 17.5cm","stock":8,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Cien años de soledad","author":"Gabriel García Márquez","editorial":"Planeta","pages":471,"genres":["Classic"],"publishedDate":"1967-05-30","rating":5,"price":25.00,"coverImage":"https://picsum.photos/seed/8/200/300","dimensions":"21.0cm x 14.5cm","stock":100,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"The Art of War","author":"Sun Tzu","editorial":"HistoryPress","pages":120,"genres":["Philosophy"],"publishedDate":"2000-01-01","rating":5,"price":12.50,"coverImage":"https://picsum.photos/seed/9/200/300","dimensions":"18.0cm x 12.0cm","stock":50,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Docker for Developers","author":"Container Queen","editorial":"TechPress","pages":310,"genres":["Tech"],"publishedDate":"2021-04-14","rating":4,"price":38.00,"coverImage":"https://picsum.photos/seed/10/200/300","dimensions":"22.0cm x 16.0cm","stock":25,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Don Quijote de la Mancha","author":"Miguel de Cervantes","editorial":"Norma","pages":860,"genres":["Classic"],"publishedDate":"2005-10-10","rating":5,"price":32.00,"coverImage":"https://picsum.photos/seed/11/200/300","dimensions":"24.0cm x 17.0cm","stock":15,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Cybersecurity 101","author":"White Hat","editorial":"Algorithmia","pages":290,"genres":["Tech"],"publishedDate":"2024-01-10","rating":3,"price":28.75,"coverImage":"https://picsum.photos/seed/12/200/300","dimensions":"22.5cm x 15.5cm","stock":3,"visible":false}
+{"index":{"_index":"books"}}
+{"title":"The Great Gatsby","author":"F. Scott Fitzgerald","editorial":"Penguin","pages":180,"genres":["Classic"],"publishedDate":"2012-03-03","rating":4,"price":15.00,"coverImage":"https://picsum.photos/seed/13/200/300","dimensions":"20.0cm x 13.0cm","stock":22,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"AI and the Future","author":"Sam Altman","editorial":"O'Reilly","pages":340,"genres":["Tech"],"publishedDate":"2023-12-01","rating":5,"price":59.99,"coverImage":"https://picsum.photos/seed/14/200/300","dimensions":"23.5cm x 18.0cm","stock":60,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Introduction to SQL","author":"Data Smith","editorial":"Packt","pages":250,"genres":["Tech"],"publishedDate":"2019-06-18","rating":4,"price":19.95,"coverImage":"https://picsum.photos/seed/15/200/300","dimensions":"21.5cm x 16.5cm","stock":45,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Crime and Punishment","author":"Fyodor Dostoevsky","editorial":"Planeta","pages":670,"genres":["Classic"],"publishedDate":"2011-11-11","rating":5,"price":21.50,"coverImage":"https://picsum.photos/seed/16/200/300","dimensions":"22.0cm x 15.0cm","stock":9,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Cooking with Java","author":"Chef Byte","editorial":"Algorithmia","pages":150,"genres":["Cooking"],"publishedDate":"2022-02-02","rating":2,"price":10.00,"coverImage":"https://picsum.photos/seed/17/200/300","dimensions":"19.0cm x 19.0cm","stock":2,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"Space Exploration","author":"Neil deGrasse Tyson","editorial":"Penguin","pages":420,"genres":["Science"],"publishedDate":"2017-07-07","rating":5,"price":33.00,"coverImage":"https://picsum.photos/seed/18/200/300","dimensions":"24.0cm x 18.5cm","stock":18,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"The Hobbit","author":"J.R.R. Tolkien","editorial":"Planeta","pages":310,"genres":["Fantasy"],"publishedDate":"2009-09-21","rating":5,"price":27.50,"coverImage":"https://picsum.photos/seed/19/200/300","dimensions":"21.0cm x 14.0cm","stock":33,"visible":true}
+{"index":{"_index":"books"}}
+{"title":"GraphQL Deep Dive","author":"Apollo Jones","editorial":"TechPress","pages":380,"genres":["Tech"],"publishedDate":"2021-05-05","rating":4,"price":44.00,"coverImage":"https://picsum.photos/seed/20/200/300","dimensions":"23.0cm x 17.5cm","stock":14,"visible":true}

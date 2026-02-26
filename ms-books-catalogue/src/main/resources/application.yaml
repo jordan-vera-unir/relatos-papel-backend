@@ -14,8 +14,12 @@ spring:
       path: /h2-console
       settings:
         web-allow-others: true
+
 server:
   port: ${PORT:8089}
+  fullAddress: ${HOST:http://localhost}:${PORT:${server.port}}
+
+##Eureka config
 eureka:
   client:
     registerWithEureka: true
@@ -25,3 +29,13 @@ eureka:
   instance:
     preferIpAddress: true
     hostname: ${HOSTNAME:localhost}
+
+##OpenSearch config
+opensearch:
+  host: ${OPENSEARCH_HOST}
+  credentials:
+    user: ${OPENSEARCH_USER}
+    password: ${OPENSEARCH_PASS}
+logging:
+  level:
+    tracer: TRACE

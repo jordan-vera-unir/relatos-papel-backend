@@ -2,7 +2,6 @@ package com.backend.ms_books_catalogue.service;
 
 import com.backend.ms_books_catalogue.dtos.CreateBookRequest;
 import com.backend.ms_books_catalogue.model.Book;
-import com.backend.ms_books_catalogue.repository.BookRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
