@@ -5,3 +5,6 @@ eureka:
     secure-port-enabled: false
     non-secure-port: ${server.port}
     secure-port: 443
+
+catalogueService:
+  url: http://ms-books-catalogue.railway.internal:8089/books/
