@@ -32,17 +32,14 @@ spring:
           globalcors:
             cors-configurations:
               '[/**]': ## For all routes
-                 allowedOrigins:
-                    - "${ALLOWED_ORIGINS:*}"
-                    - "https://relatos-de-papel-jet.vercel.app"
-                    - "https://relatos-de-papel-5teftdl6z-jordans-projects-c959b181.vercel.app"
-                 allowedHeaders: "*" ## All headers allowed
-                 allowedMethods:
-                    - GET
-                    - POST
-                    - PUT
-                    - DELETE
-                    - PATCH
+                allowedOrigins: ${ALLOWED_ORIGINS:*} # With '*' we allow all origins. We can restrict by indicating domains or ip + port, e.g. http://localhost:3000 (where our front is, or a Vercel domain)
+                allowedHeaders: "*" ## All headers allowed
+                allowedMethods:
+                  - GET
+                  - POST
+                  - PUT
+                  - DELETE
+                  - PATCH
 
 ## We enable the Actuator API to be able to access <<host>>/actuator/gateway/routes
 ## We expose the routings that have been automatically detected (all)
